@@ -1,6 +1,3 @@
-# rag-chatbot
-Q&amp;A Chatbot using Spring AI
-
 # RAG Chatbot with Java Spring Boot + Spring AI + Ollama + pgvector
 
 A production-oriented, beginner-friendly **RAG (Retrieval-Augmented Generation) Q&A chatbot** built with **Java Spring Boot** and **Spring AI**.
