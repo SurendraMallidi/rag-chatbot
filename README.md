@@ -27,9 +27,6 @@ This project answers:
 - [Common issues and fixes](#common-issues-and-fixes)
 - [Security considerations](#security-considerations)
 - [Production improvements roadmap](#production-improvements-roadmap)
-- [Resume-ready bullet points](#resume-ready-bullet-points)
-- [Interview Q&A](#interview-qa)
-- [License](#license)
 
 ---
 
