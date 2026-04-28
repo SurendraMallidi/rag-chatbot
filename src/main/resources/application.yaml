@@ -1,0 +1,33 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: rag-chatbot
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ragdb
+    username: raguser
+    password: ragpass
+    driver-class-name: org.postgresql.Driver
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        options:
+          model: phi3:mini
+          temperature: 0.2
+      embedding:
+        options:
+          model: nomic-embed-text
+    vectorstore:
+      pgvector:
+        initialize-schema: true
+        index-type: hnsw
+        distance-type: cosine_distance
+        dimensions: 768
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
